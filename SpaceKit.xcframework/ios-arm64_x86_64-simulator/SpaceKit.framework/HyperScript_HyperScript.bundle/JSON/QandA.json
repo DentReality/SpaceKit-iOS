@@ -1,0 +1,42 @@
+{
+    "questions": {
+        "en": {
+            "maps": [
+                {
+                    "question": "What format do the floorplans need to be in?",
+                    "answer": "We can accept floorplans in a CAD file type like DWG, or a vector file like PDF, or even PNG is also accepted. "
+                },
+                {
+                    "question": "What happens if we change our floorplan layout?",
+                    "answer": "The process is simple: You just need to submit a floorplan with the new layout on our HyperPortal. Your virtual map will then be updated using the new floorplan. Then once that is complete, you just need to publish the new venue version - Super easy!"
+                },
+                {
+                    "question": "How much can we customise the map?",
+                    "answer": "By default, maps come with a beautiful and accessible style. We do offer a wide range of optional customisable map properties to help your map fit your brand: like custom icons for annotations, multi language support and custom colours for section fixtures."
+                },
+                {
+                    "question": "Can I get more detail on how Hyper location works?",
+                    "answer": "Hyper Location works using a breakthrough new technology, combining high-precision motion data from the device with wifi triangulation – using our proprietary algorithm. Achieving <1 meter accuracy all without a wifi connection, beacons or other external hardware."
+                },
+                {
+                    "question": "Do customer need to connect to the store WiFi for the location to work?",
+                    "answer": "No, your customers don’t need to be connected to your wifi. Although HyperLocation uses your wifi to triangulate, it doesn’t need to be connected in order to do this."
+                }
+            ],
+            "routing": [
+                {
+                    "question": "Can I customise the directions readout?",
+                    "answer": "We don’t allow customisation of the directions readout view to maintain the clarity and consistency to achieve the industry leading user experience the HyperSDK is known for."
+                },
+                {
+                    "question": "What if I don’t want to make a custom infoView?",
+                    "answer": "There is no need to make an infoView if you don’t want to. The infoView we use in HyperView is provided to you by default in the HyperSDK, so you get a great experience right out of the box."
+                },
+                {
+                    "question": "Why is there no turn by turn directions before HyperLocation is accurate?",
+                    "answer": "We want to provide the best experience for you and your users. So we wait until we’ve achieved our industry leading location accuracy before providing high accuracy features like turn by turn directions."
+                }
+            ]
+        }
+    }
+}

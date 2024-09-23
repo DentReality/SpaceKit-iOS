@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SpaceKit
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SpaceKit
 import ARKit
 import AVFoundation
 import Combine
@@ -103,6 +102,9 @@ public enum RoutingFailure : Swift.Equatable {
   #if compiler(>=5.3) && $AsyncAwait
   public static func clearCaches() async
   #endif
+  public static var version: Swift.String {
+    get
+  }
   @objc deinit
 }
 extension SpaceKit.SpaceKitDestination : Swift.Equatable {
@@ -278,7 +280,7 @@ public protocol RecenterButton : UIKit.UIControl {
   func setIsMapTrackingUser(_ isTracking: Swift.Bool)
 }
 extension Swift.String {
-  @_backDeploy(before: iOS 15)
+  @backDeployed(before: iOS 15)
   public init(localized localizationKey: Swift.String, table: Swift.String? = nil, bundle: Foundation.Bundle? = nil, locale: Foundation.Locale = .current, comment: Swift.StaticString? = nil) {
 		self = NSLocalizedString(
 			localizationKey,
@@ -412,8 +414,8 @@ extension SpaceKit.Theme {
 public struct SpaceKitContextFactory {
   @available(*, deprecated, message: "`isDebugEnabled` parameter has been obsoleted by configuration files. This initialiser will be removed in future versions. Please use `SpaceKitContextFactory.init(venue:configurationFileURL:)` instead.")
   public init(venue: any SpaceKit.Venue, isDebugEnabled: Swift.Bool)
-  public init(venue: any SpaceKit.Venue, configurationFileURL: Foundation.URL? = nil)
-  public init(venue: any SpaceKit.Venue, configuration: [SpaceKit.ConfigurationKey : Any] = [:])
+  public init(venue: any SpaceKit.Venue, configurationFileURL: Foundation.URL? = nil, apiKey: Swift.String? = nil)
+  public init(venue: any SpaceKit.Venue, configuration: [SpaceKit.ConfigurationKey : Any] = [:], apiKey: Swift.String? = nil)
   #if compiler(>=5.3) && $AsyncAwait
   public func make() async throws -> any SpaceKit.Context
   #endif
@@ -450,7 +452,7 @@ public protocol SpaceKitBarcodeDelegate : AnyObject {
 }
 public struct VenueManagerConfiguration {
   public let organizationIdentifier: Swift.String
-  public init(organizationIdentifier: Swift.String, apiKey: Swift.String? = nil)
+  public init(organizationIdentifier: Swift.String, apiKey: Swift.String, apiSharedSecret: Swift.String)
   public init(dictionary: [Swift.String : Any?]) throws
 }
 extension SpaceKit.VenueManagerConfiguration : Swift.Decodable {
