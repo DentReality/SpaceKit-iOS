@@ -4,14 +4,22 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Arrow.usdz</key>
+		<key>hyperArrow.usdz</key>
 		<data>
 		iv1kuhB1cnMhvaDD2Qj7Tv3yl6A=
+		</data>
+		<key>hyperArrow_orange.usdz</key>
+		<data>
+		4d61TRVu56vTQaxExhnU9YEfNhk=
+		</data>
+		<key>hyperArrow_red.usdz</key>
+		<data>
+		iQnWyQiEshD1R7/iNF+aqiz3UPY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Arrow.usdz</key>
+		<key>hyperArrow.usdz</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -20,6 +28,28 @@
 			<key>hash2</key>
 			<data>
 			4ac618hf0rJ8z+lw59zcSO52YWeEtqLRBAxk//QMSAc=
+			</data>
+		</dict>
+		<key>hyperArrow_orange.usdz</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4d61TRVu56vTQaxExhnU9YEfNhk=
+			</data>
+			<key>hash2</key>
+			<data>
+			6GmFZ9kFSBykY9nn+EiwDcZtADi0K74vCnDu9DfhNG8=
+			</data>
+		</dict>
+		<key>hyperArrow_red.usdz</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iQnWyQiEshD1R7/iNF+aqiz3UPY=
+			</data>
+			<key>hash2</key>
+			<data>
+			yTupfm5jDIKfHpVEse0MxUjr4ve+V4Gbpb4P/lL+J8k=
 			</data>
 		</dict>
 	</dict>

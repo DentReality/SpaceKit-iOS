@@ -28,18 +28,12 @@ function routing.PresentFixture()
 end
 
 function routing.PresentPickAProduct()
-    Destinations = {
-        Destination.new("Decoration", "Section", "DEPT_004", Resource.new("")),
-        Destination.new("Workspaces", "Section", "DEPT_012", Resource.new("")),
-        Destination.new("Escalators", "Point of Interest", "POI_SUBTYPE_ESCALATOR", Resource.new("")),
-    }
-
     function OnSelectDestination(index)
-        addToList(Destinations[index]:getItemCode(), Destinations[index]:getDescription(), Destinations[index]:getImage())
+        addToList(index)
         routing.PresentSelectedDestination()
     end
 
-    DestinationsDialog.new(Destinations, "For now, let’s pick a destination to navigate to.", "Great, let’s go!", OnSelectDestination):present(context)
+    DestinationsDialog.new("For now, let’s pick a destination to navigate to.", "Great, let’s go!", OnSelectDestination):present(context)
 end
 
 function routing.PresentSelectedDestination()
@@ -128,13 +122,13 @@ function routing.PresentWhenYoureClose()
 end
 
 function routing.PresentArrivedButton()
-    MessageDialog.new({"…and the 'Got it' button will highlight as well, to tick off that item."}, routing.PresentNowYouveArrived):present(context)
+    MessageDialog.new({"…and the 'Arrived' button will highlight as well, to tick off that item."}, routing.PresentNowYouveArrived):present(context)
 end
 
 function routing.PresentNowYouveArrived()
     enableFeature("gotIt")
 
-    TaskDialog = TaskDialog.new("So now you’ve arrived at the item, tap 'Got it'.", "Tap 'Got it'", routing.PresentSummary)
+    TaskDialog = TaskDialog.new("So now you’ve arrived at the item, tap 'Arrived'.", "Tap 'Arrived'", routing.PresentSummary)
     TaskDialog:present(context)
     
     CompleteFunction = function()
