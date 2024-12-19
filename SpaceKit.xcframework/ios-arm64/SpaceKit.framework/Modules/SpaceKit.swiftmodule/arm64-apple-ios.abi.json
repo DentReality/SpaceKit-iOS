@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SpaceKit",
+    "printedName": "SpaceKit",
     "children": [
       {
         "kind": "Import",
@@ -181,16 +181,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SpaceKitUI",
-        "printedName": "SpaceKitUI",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "SpaceKitViewControllerFactory",
         "printedName": "SpaceKitViewControllerFactory",
@@ -220,8 +210,8 @@
             "moduleName": "SpaceKit",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -636,7 +626,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.Int]) -> (any SpaceKit.LevelSwitcher)?",
+                "printedName": "([SpaceKit.LevelSwitcherLevel]) -> (any SpaceKit.LevelSwitcher)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -655,13 +645,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int]",
+                    "printedName": "[SpaceKit.LevelSwitcherLevel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "LevelSwitcherLevel",
+                        "printedName": "SpaceKit.LevelSwitcherLevel",
+                        "usr": "s:8SpaceKit013LevelSwitcherC0V"
                       }
                     ],
                     "usr": "s:Sa"
@@ -670,8 +660,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SpaceKit0aB21ViewControllerFactoryV7context5theme013levelSwitcherE0AcA7Context_p_AA5ThemeVAA05LevelI0_pSgSaySiGctcfc",
-            "mangledName": "$s8SpaceKit0aB21ViewControllerFactoryV7context5theme013levelSwitcherE0AcA7Context_p_AA5ThemeVAA05LevelI0_pSgSaySiGctcfc",
+            "usr": "s:8SpaceKit0aB21ViewControllerFactoryV7context5theme013levelSwitcherE0AcA7Context_p_AA5ThemeVAA05LevelI0_pSgSayAA0liL0VGctcfc",
+            "mangledName": "$s8SpaceKit0aB21ViewControllerFactoryV7context5theme013levelSwitcherE0AcA7Context_p_AA5ThemeVAA05LevelI0_pSgSayAA0liL0VGctcfc",
             "moduleName": "SpaceKit",
             "declAttributes": [
               "Custom",
@@ -713,7 +703,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.Int]) -> (any SpaceKit.LevelSwitcher)?",
+                "printedName": "([SpaceKit.LevelSwitcherLevel]) -> (any SpaceKit.LevelSwitcher)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -732,13 +722,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int]",
+                    "printedName": "[SpaceKit.LevelSwitcherLevel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "LevelSwitcherLevel",
+                        "printedName": "SpaceKit.LevelSwitcherLevel",
+                        "usr": "s:8SpaceKit013LevelSwitcherC0V"
                       }
                     ],
                     "usr": "s:Sa"
@@ -747,8 +737,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SpaceKit0aB21ViewControllerFactoryV7context6layout5theme013levelSwitcherE0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA05LevelJ0_pSgSaySiGctcfc",
-            "mangledName": "$s8SpaceKit0aB21ViewControllerFactoryV7context6layout5theme013levelSwitcherE0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA05LevelJ0_pSgSaySiGctcfc",
+            "usr": "s:8SpaceKit0aB21ViewControllerFactoryV7context6layout5theme013levelSwitcherE0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA05LevelJ0_pSgSayAA0njN0VGctcfc",
+            "mangledName": "$s8SpaceKit0aB21ViewControllerFactoryV7context6layout5theme013levelSwitcherE0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA05LevelJ0_pSgSayAA0njN0VGctcfc",
             "moduleName": "SpaceKit",
             "declAttributes": [
               "Custom",
@@ -802,7 +792,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.Int]) -> (any SpaceKit.LevelSwitcher)?",
+                "printedName": "([SpaceKit.LevelSwitcherLevel]) -> (any SpaceKit.LevelSwitcher)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -821,13 +811,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int]",
+                    "printedName": "[SpaceKit.LevelSwitcherLevel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "LevelSwitcherLevel",
+                        "printedName": "SpaceKit.LevelSwitcherLevel",
+                        "usr": "s:8SpaceKit013LevelSwitcherC0V"
                       }
                     ],
                     "usr": "s:Sa"
@@ -836,8 +826,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SpaceKit0aB21ViewControllerFactoryV7context5theme04infocE0013levelSwitcherE0AcA7Context_p_AA5ThemeVAA04InfoC0_pyXAAA05LevelJ0_pSgSaySiGctcfc",
-            "mangledName": "$s8SpaceKit0aB21ViewControllerFactoryV7context5theme04infocE0013levelSwitcherE0AcA7Context_p_AA5ThemeVAA04InfoC0_pyXAAA05LevelJ0_pSgSaySiGctcfc",
+            "usr": "s:8SpaceKit0aB21ViewControllerFactoryV7context5theme04infocE0013levelSwitcherE0AcA7Context_p_AA5ThemeVAA04InfoC0_pyXAAA05LevelJ0_pSgSayAA0njN0VGctcfc",
+            "mangledName": "$s8SpaceKit0aB21ViewControllerFactoryV7context5theme04infocE0013levelSwitcherE0AcA7Context_p_AA5ThemeVAA04InfoC0_pyXAAA05LevelJ0_pSgSayAA0njN0VGctcfc",
             "moduleName": "SpaceKit",
             "declAttributes": [
               "Custom",
@@ -975,7 +965,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.Int]) -> (any SpaceKit.LevelSwitcher)?",
+                "printedName": "([SpaceKit.LevelSwitcherLevel]) -> (any SpaceKit.LevelSwitcher)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -994,13 +984,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int]",
+                    "printedName": "[SpaceKit.LevelSwitcherLevel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "LevelSwitcherLevel",
+                        "printedName": "SpaceKit.LevelSwitcherLevel",
+                        "usr": "s:8SpaceKit013LevelSwitcherC0V"
                       }
                     ],
                     "usr": "s:Sa"
@@ -1027,8 +1017,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SpaceKit0aB21ViewControllerFactoryV7context6layout5theme04infocE0013levelSwitcherE0014recenterButtonE0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA04InfoC0_pyXAAA05LevelK0_pSgSaySiGcAA08RecenterM0_pyXAtcfc",
-            "mangledName": "$s8SpaceKit0aB21ViewControllerFactoryV7context6layout5theme04infocE0013levelSwitcherE0014recenterButtonE0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA04InfoC0_pyXAAA05LevelK0_pSgSaySiGcAA08RecenterM0_pyXAtcfc",
+            "usr": "s:8SpaceKit0aB21ViewControllerFactoryV7context6layout5theme04infocE0013levelSwitcherE0014recenterButtonE0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA04InfoC0_pyXAAA05LevelK0_pSgSayAA0rkR0VGcAA08RecenterM0_pyXAtcfc",
+            "mangledName": "$s8SpaceKit0aB21ViewControllerFactoryV7context6layout5theme04infocE0013levelSwitcherE0014recenterButtonE0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA04InfoC0_pyXAAA05LevelK0_pSgSayAA0rkR0VGcAA08RecenterM0_pyXAtcfc",
             "moduleName": "SpaceKit",
             "declAttributes": [
               "Custom",
@@ -1071,6 +1061,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -1196,6 +1200,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1602,6 +1622,22 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1831,6 +1867,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -2307,6 +2357,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "DestinationProtocol",
             "printedName": "DestinationProtocol",
             "usr": "s:8SpaceKit19DestinationProtocolP",
@@ -2503,6 +2567,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2813,6 +2891,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2918,6 +3012,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3071,7 +3179,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3140,6 +3264,22 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5051,6 +5191,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ObservableObject",
             "printedName": "ObservableObject",
             "children": [
@@ -5199,16 +5353,22 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5638,6 +5798,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5767,6 +5941,22 @@
           "AccessControl",
           "Available",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5790,6 +5980,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5853,6 +6059,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6074,6 +6296,91 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevelSwitcherLevel",
+        "printedName": "LevelSwitcherLevel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(levelIdentifier:ordinal:name:shortName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevelSwitcherLevel",
+                "printedName": "SpaceKit.LevelSwitcherLevel",
+                "usr": "s:8SpaceKit013LevelSwitcherC0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SpaceKit013LevelSwitcherC0V15levelIdentifier7ordinal4name9shortNameACSS_SiS2Stcfc",
+            "mangledName": "$s8SpaceKit013LevelSwitcherC0V15levelIdentifier7ordinal4name9shortNameACSS_SiS2Stcfc",
+            "moduleName": "SpaceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8SpaceKit013LevelSwitcherC0V",
+        "mangledName": "$s8SpaceKit013LevelSwitcherC0V",
+        "moduleName": "SpaceKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "GameplayKit",
         "printedName": "GameplayKit",
         "declKind": "Import",
@@ -6282,6 +6589,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6471,16 +6794,6 @@
       },
       {
         "kind": "Import",
-        "name": "SpaceKitUI",
-        "printedName": "SpaceKitUI",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6500,6 +6813,16 @@
         "kind": "Import",
         "name": "SpaceKitFoundation",
         "printedName": "SpaceKitFoundation",
+        "declKind": "Import",
+        "moduleName": "SpaceKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Encryption",
+        "printedName": "Encryption",
         "declKind": "Import",
         "moduleName": "SpaceKit",
         "declAttributes": [
@@ -6574,6 +6897,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Venue",
             "printedName": "Venue",
             "usr": "s:8SpaceKit5VenueP",
@@ -6589,16 +6926,6 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "ImplementationOnly",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -6769,6 +7096,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SpaceKit"
+      },
+      {
+        "kind": "Import",
         "name": "HyperUI",
         "printedName": "HyperUI",
         "declKind": "Import",
@@ -6910,6 +7244,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7045,6 +7395,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7103,6 +7469,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7657,6 +8039,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7796,6 +8194,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -7818,6 +8230,16 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyperBackgroundSDK",
+        "printedName": "HyperBackgroundSDK",
+        "declKind": "Import",
+        "moduleName": "SpaceKit",
+        "declAttributes": [
+          "Exported"
         ]
       },
       {
@@ -8046,193 +8468,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LevelSwitcher",
-        "printedName": "LevelSwitcher",
-        "children": [
+        ],
+        "conformances": [
           {
-            "kind": "Var",
-            "name": "setLevelOrdinalHandler",
-            "printedName": "setLevelOrdinalHandler",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Int) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8SpaceKit13LevelSwitcherP03setC14OrdinalHandleryySicvp",
-            "mangledName": "$s8SpaceKit13LevelSwitcherP03setC14OrdinalHandleryySicvp",
-            "moduleName": "SpaceKit",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SpaceKit13LevelSwitcherP03setC14OrdinalHandleryySicvg",
-                "mangledName": "$s8SpaceKit13LevelSwitcherP03setC14OrdinalHandleryySicvg",
-                "moduleName": "SpaceKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : SpaceKit.LevelSwitcher>",
-                "sugared_genericSig": "<Self where Self : SpaceKit.LevelSwitcher>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SpaceKit13LevelSwitcherP03setC14OrdinalHandleryySicvs",
-                "mangledName": "$s8SpaceKit13LevelSwitcherP03setC14OrdinalHandleryySicvs",
-                "moduleName": "SpaceKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : SpaceKit.LevelSwitcher>",
-                "sugared_genericSig": "<Self where Self : SpaceKit.LevelSwitcher>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SpaceKit13LevelSwitcherP03setC14OrdinalHandleryySicvM",
-                "mangledName": "$s8SpaceKit13LevelSwitcherP03setC14OrdinalHandleryySicvM",
-                "moduleName": "SpaceKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : SpaceKit.LevelSwitcher>",
-                "sugared_genericSig": "<Self where Self : SpaceKit.LevelSwitcher>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
-            "kind": "Function",
-            "name": "spaceKitDidSetDisplayLevelOrdinal",
-            "printedName": "spaceKitDidSetDisplayLevelOrdinal(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8SpaceKit13LevelSwitcherP05spaceb13DidSetDisplayC7OrdinalyySiF",
-            "mangledName": "$s8SpaceKit13LevelSwitcherP05spaceb13DidSetDisplayC7OrdinalyySiF",
-            "moduleName": "SpaceKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : SpaceKit.LevelSwitcher>",
-            "sugared_genericSig": "<Self where Self : SpaceKit.LevelSwitcher>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:8SpaceKit13LevelSwitcherP",
-        "mangledName": "$s8SpaceKit13LevelSwitcherP",
-        "moduleName": "SpaceKit",
-        "genericSig": "<τ_0_0 : UIKit.UIView>",
-        "sugared_genericSig": "<Self : UIKit.UIView>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
         ]
       },
       {
@@ -8430,6 +8681,22 @@
           "AccessControl",
           "Available",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8806,6 +9073,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9067,6 +9350,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -9316,6 +9613,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -9590,6 +9901,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -10044,6 +10369,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10396,6 +10735,22 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10522,16 +10877,6 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "SpaceKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SpaceKitUI",
-        "printedName": "SpaceKitUI",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
       },
       {
         "kind": "Import",
@@ -10855,6 +11200,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11004,6 +11363,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -11089,18 +11464,197 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
-        "declKind": "Import",
-        "moduleName": "SpaceKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SpaceKit"
+        "kind": "TypeDecl",
+        "name": "LevelSwitcher",
+        "printedName": "LevelSwitcher",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "setLevelIdentifierHandler",
+            "printedName": "setLevelIdentifierHandler",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpaceKit13LevelSwitcherP03setC17IdentifierHandleryySScvp",
+            "mangledName": "$s8SpaceKit13LevelSwitcherP03setC17IdentifierHandleryySScvp",
+            "moduleName": "SpaceKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpaceKit13LevelSwitcherP03setC17IdentifierHandleryySScvg",
+                "mangledName": "$s8SpaceKit13LevelSwitcherP03setC17IdentifierHandleryySScvg",
+                "moduleName": "SpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : SpaceKit.LevelSwitcher>",
+                "sugared_genericSig": "<Self where Self : SpaceKit.LevelSwitcher>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpaceKit13LevelSwitcherP03setC17IdentifierHandleryySScvs",
+                "mangledName": "$s8SpaceKit13LevelSwitcherP03setC17IdentifierHandleryySScvs",
+                "moduleName": "SpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : SpaceKit.LevelSwitcher>",
+                "sugared_genericSig": "<Self where Self : SpaceKit.LevelSwitcher>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpaceKit13LevelSwitcherP03setC17IdentifierHandleryySScvM",
+                "mangledName": "$s8SpaceKit13LevelSwitcherP03setC17IdentifierHandleryySScvM",
+                "moduleName": "SpaceKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : SpaceKit.LevelSwitcher>",
+                "sugared_genericSig": "<Self where Self : SpaceKit.LevelSwitcher>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "spaceKitDidSetDisplayLevel",
+            "printedName": "spaceKitDidSetDisplayLevel(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpaceKit13LevelSwitcherP05spaceb13DidSetDisplayC04withySS_tF",
+            "mangledName": "$s8SpaceKit13LevelSwitcherP05spaceb13DidSetDisplayC04withySS_tF",
+            "moduleName": "SpaceKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpaceKit.LevelSwitcher>",
+            "sugared_genericSig": "<Self where Self : SpaceKit.LevelSwitcher>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8SpaceKit13LevelSwitcherP",
+        "mangledName": "$s8SpaceKit13LevelSwitcherP",
+        "moduleName": "SpaceKit",
+        "genericSig": "<τ_0_0 : UIKit.UIView>",
+        "sugared_genericSig": "<Self : UIKit.UIView>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -11111,26 +11665,6 @@
         "declAttributes": [
           "ImplementationOnly",
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "HyperNetwork",
-        "printedName": "HyperNetwork",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "ImplementationOnly"
         ]
       },
       {
@@ -11228,16 +11762,6 @@
         "kind": "Import",
         "name": "SpaceKitFoundation",
         "printedName": "SpaceKitFoundation",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SpaceKitUI",
-        "printedName": "SpaceKitUI",
         "declKind": "Import",
         "moduleName": "SpaceKit",
         "declAttributes": [
@@ -11377,7 +11901,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.Int]) -> (any SpaceKit.LevelSwitcher)?",
+                "printedName": "([SpaceKit.LevelSwitcherLevel]) -> (any SpaceKit.LevelSwitcher)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -11396,13 +11920,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int]",
+                    "printedName": "[SpaceKit.LevelSwitcherLevel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "LevelSwitcherLevel",
+                        "printedName": "SpaceKit.LevelSwitcherLevel",
+                        "usr": "s:8SpaceKit013LevelSwitcherC0V"
                       }
                     ],
                     "usr": "s:Sa"
@@ -11429,8 +11953,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SpaceKit30StaticMapViewControllerFactoryV7context6layout5theme013levelSwitcherG0014recenterButtonG0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA05LevelL0_pSgSaySiGcAA08RecenterN0_pyXAtcfc",
-            "mangledName": "$s8SpaceKit30StaticMapViewControllerFactoryV7context6layout5theme013levelSwitcherG0014recenterButtonG0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA05LevelL0_pSgSaySiGcAA08RecenterN0_pyXAtcfc",
+            "usr": "s:8SpaceKit30StaticMapViewControllerFactoryV7context6layout5theme013levelSwitcherG0014recenterButtonG0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA05LevelL0_pSgSayAA0rlR0VGcAA08RecenterN0_pyXAtcfc",
+            "mangledName": "$s8SpaceKit30StaticMapViewControllerFactoryV7context6layout5theme013levelSwitcherG0014recenterButtonG0AcA7Context_p_AA0aB6Layout_pAA5ThemeVAA05LevelL0_pSgSayAA0rlR0VGcAA08RecenterN0_pyXAtcfc",
             "moduleName": "SpaceKit",
             "declAttributes": [
               "AccessControl",
@@ -11468,6 +11992,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -11508,16 +12048,6 @@
         "kind": "Import",
         "name": "HyperUI",
         "printedName": "HyperUI",
-        "declKind": "Import",
-        "moduleName": "SpaceKit",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SpaceKitUI",
-        "printedName": "SpaceKitUI",
         "declKind": "Import",
         "moduleName": "SpaceKit",
         "declAttributes": [
@@ -11821,6 +12351,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11915,6 +12459,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -11985,6 +12545,16 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SpaceKit",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -12269,6 +12839,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12424,6 +13008,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12523,6 +13123,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12673,6 +13289,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12714,6 +13346,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12917,6 +13565,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12947,6 +13611,16 @@
         "kind": "Import",
         "name": "HyperNetwork",
         "printedName": "HyperNetwork",
+        "declKind": "Import",
+        "moduleName": "SpaceKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Encryption",
+        "printedName": "Encryption",
         "declKind": "Import",
         "moduleName": "SpaceKit",
         "declAttributes": [
@@ -13114,6 +13788,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -13195,6 +13883,22 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -13343,6 +14047,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "VenueMetadata",
@@ -13507,6 +14225,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "LocalVenue",
             "printedName": "LocalVenue",
             "usr": "s:8SpaceKit10LocalVenueP",
@@ -13616,6 +14348,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LocalVenueRegion",
@@ -14647,6 +15393,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "EventFactory",
             "printedName": "EventFactory",
             "usr": "s:8SpaceKit12EventFactoryP",
@@ -14702,6 +15462,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -14895,6 +15671,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15117,6 +15907,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -15224,6 +16030,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -15520,6 +16342,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15727,6 +16563,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15825,6 +16675,49 @@
         "moduleName": "SpaceKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpaceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SpaceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "HyperUI",
+        "printedName": "HyperUI",
+        "declKind": "Import",
+        "moduleName": "SpaceKit",
+        "declAttributes": [
+          "ImplementationOnly"
         ]
       },
       {
@@ -16005,6 +16898,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -16092,7 +16999,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -16243,6 +17166,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -16410,6 +17347,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "EventTrigger",
                 "printedName": "EventTrigger",
                 "usr": "s:8SpaceKit12EventTriggerP",
@@ -16468,6 +17419,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "EventTrigger",
                 "printedName": "EventTrigger",
                 "usr": "s:8SpaceKit12EventTriggerP",
@@ -16520,6 +17485,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "EventTrigger",
                 "printedName": "EventTrigger",
                 "usr": "s:8SpaceKit12EventTriggerP",
@@ -16570,6 +17549,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "EventTrigger",
@@ -16628,6 +17621,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "EventTrigger",
@@ -16710,6 +17717,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "EventTrigger",
                 "printedName": "EventTrigger",
                 "usr": "s:8SpaceKit12EventTriggerP",
@@ -16786,6 +17807,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "EventTrigger",
                 "printedName": "EventTrigger",
                 "usr": "s:8SpaceKit12EventTriggerP",
@@ -16801,6 +17836,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -16983,6 +18034,9 @@
             "moduleName": "SpaceKit",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -17096,6 +18150,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17486,6 +18554,20 @@
             "printedName": "IMDFFeature",
             "usr": "s:18SpaceKitFoundation11IMDFFeatureP",
             "mangledName": "$s18SpaceKitFoundation11IMDFFeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -17498,6 +18580,7 @@
         "mangledName": "$s7HyperUI21DefaultRecenterButtonC",
         "moduleName": "HyperUI",
         "declAttributes": [
+          "Preconcurrency",
           "Final",
           "Custom",
           "ObjC"
@@ -17516,17 +18599,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "RecenterButton",
-            "printedName": "RecenterButton",
-            "usr": "s:8SpaceKit14RecenterButtonP",
-            "mangledName": "$s8SpaceKit14RecenterButtonP"
-          },
-          {
-            "kind": "Conformance",
             "name": "CoreButtonThemable",
             "printedName": "CoreButtonThemable",
             "usr": "s:7HyperUI18CoreButtonThemableP",
             "mangledName": "$s7HyperUI18CoreButtonThemableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -17604,107 +18694,13 @@
             "printedName": "InfoViewButton",
             "usr": "s:8SpaceKit14InfoViewButtonP",
             "mangledName": "$s8SpaceKit14InfoViewButtonP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DefaultLevelSwitcher",
-        "printedName": "DefaultLevelSwitcher",
-        "declKind": "Class",
-        "usr": "c:@M@SpaceKitUI@objc(cs)DefaultLevelSwitcher",
-        "mangledName": "$s10SpaceKitUI20DefaultLevelSwitcherC",
-        "moduleName": "SpaceKitUI",
-        "declAttributes": [
-          "Final",
-          "Custom",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "isExternal": true,
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "LevelSwitcher",
-            "printedName": "LevelSwitcher",
-            "usr": "s:8SpaceKit13LevelSwitcherP",
-            "mangledName": "$s8SpaceKit13LevelSwitcherP"
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "RecenterButton",
+            "printedName": "RecenterButton",
+            "usr": "s:8SpaceKit14RecenterButtonP",
+            "mangledName": "$s8SpaceKit14RecenterButtonP"
           }
         ]
       },
@@ -17730,6 +18726,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17803,6 +18813,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -18586,7 +19610,23 @@
         "moduleName": "Swift",
         "genericSig": "<τ_0_0.Element == τ_0_0.Iterator.Element, τ_0_0.Iterator : Swift.IteratorProtocol>",
         "sugared_genericSig": "<Self.Element == Self.Iterator.Element, Self.Iterator : Swift.IteratorProtocol>",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -18610,6 +19650,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -18758,6 +19812,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -19297,12 +20365,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -19311,6 +20373,13 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
           },
           {
             "kind": "Conformance",
@@ -19325,6 +20394,13 @@
             "printedName": "Value",
             "usr": "s:9lua4swift5ValueP",
             "mangledName": "$s9lua4swift5ValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "URLQueryRepresentable",
+            "printedName": "URLQueryRepresentable",
+            "usr": "s:9PostgREST21URLQueryRepresentableP",
+            "mangledName": "$s9PostgREST21URLQueryRepresentableP"
           }
         ]
       },
@@ -19349,6 +20425,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -19417,6 +20507,20 @@
             "printedName": "IMDFFeature",
             "usr": "s:18SpaceKitFoundation11IMDFFeatureP",
             "mangledName": "$s18SpaceKitFoundation11IMDFFeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -19429,6 +20533,7 @@
         "mangledName": "$s7HyperUI12CoreIconViewC",
         "moduleName": "HyperUI",
         "declAttributes": [
+          "Preconcurrency",
           "Final",
           "Custom",
           "ObjC"
@@ -19445,10 +20550,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "InfoViewIcon",
-            "printedName": "InfoViewIcon",
-            "usr": "s:8SpaceKit12InfoViewIconP",
-            "mangledName": "$s8SpaceKit12InfoViewIconP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -19519,6 +20631,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InfoViewIcon",
+            "printedName": "InfoViewIcon",
+            "usr": "s:8SpaceKit12InfoViewIconP",
+            "mangledName": "$s8SpaceKit12InfoViewIconP"
           }
         ]
       },
@@ -19533,6 +20652,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UILabel",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -19548,6 +20668,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -19665,6 +20799,7 @@
             "mangledName": "$sSo9UIControlC8SpaceKitE9addActionyyyycF",
             "moduleName": "SpaceKit",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -19679,6 +20814,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIControl",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -19694,6 +20830,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -19796,6 +20946,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -19875,6 +21039,7 @@
             "mangledName": "$sSo9ARSCNViewC8SpaceKitE16userSceneHeadingSfSgvp",
             "moduleName": "SpaceKit",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -19927,6 +21092,7 @@
             "mangledName": "$sSo9ARSCNViewC8SpaceKitE23userVerticalOrientationSfvp",
             "moduleName": "SpaceKit",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -19961,6 +21127,7 @@
         "intro_iOS": "11.0",
         "objc_name": "ARSCNView",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Available",
           "ObjC",
@@ -19976,6 +21143,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -20063,6 +21244,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "MaloryNavigation",
             "printedName": "MaloryNavigation",
             "usr": "s:8MaloryAR0A10NavigationP",
@@ -20081,7 +21276,23 @@
         "declAttributes": [
           "Final"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -20132,6 +21343,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -20156,6 +21381,20 @@
             "printedName": "IMDFFeature",
             "usr": "s:18SpaceKitFoundation11IMDFFeatureP",
             "mangledName": "$s18SpaceKitFoundation11IMDFFeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -20176,6 +21415,20 @@
             "printedName": "IMDFFeature",
             "usr": "s:18SpaceKitFoundation11IMDFFeatureP",
             "mangledName": "$s18SpaceKitFoundation11IMDFFeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       }
@@ -20196,13 +21449,6 @@
       "offset": 575,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/ARViewController\/ARViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 783,
-      "length": 16,
-      "value": "\"SpaceKit.ARViewController\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/Destination.swift",
@@ -20471,48 +21717,6 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/Requisites.swift",
-      "kind": "IntegerLiteral",
-      "offset": 441,
-      "length": 25,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/Requisites.swift",
-      "kind": "IntegerLiteral",
-      "offset": 910,
-      "length": 16,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/Requisites.swift",
-      "kind": "IntegerLiteral",
-      "offset": 441,
-      "length": 25,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/Requisites.swift",
-      "kind": "IntegerLiteral",
-      "offset": 744,
-      "length": 28,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/Requisites.swift",
-      "kind": "IntegerLiteral",
-      "offset": 910,
-      "length": 16,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LayoutGuideView.swift",
-      "kind": "StringLiteral",
-      "offset": 93,
-      "length": 15,
-      "value": "\"SpaceKit.LayoutGuideView\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Compass\/DirectionIndicatorView.swift",
       "kind": "BooleanLiteral",
       "offset": 194,
@@ -20583,25 +21787,25 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Compass\/DirectionIndicatorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2944,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Compass\/DirectionIndicatorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2956,
+      "length": 2,
+      "value": "42"
+    },
+    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/Source\/LocationAnalysis\/Location Controller\/LocationController.swift",
       "kind": "BooleanLiteral",
       "offset": 2226,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDirectionNode.swift",
-      "kind": "StringLiteral",
-      "offset": 228,
-      "length": 18,
-      "value": "\"SpaceKit.HyperDirectionNode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDirectionNode.swift",
-      "kind": "StringLiteral",
-      "offset": 1664,
-      "length": 24,
-      "value": "\"SpaceKit.HyperLevelTransitionNode\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDirectionNode.swift",
@@ -20751,20 +21955,6 @@
       "value": "\"xmark\""
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 6442,
-      "length": 10,
-      "value": "\"map.fill\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 6468,
-      "length": 7,
-      "value": "\"xmark\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NotificationView.swift",
       "kind": "BooleanLiteral",
       "offset": 323,
@@ -20784,13 +21974,6 @@
       "offset": 503,
       "length": 9,
       "value": "\"opacity\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NotificationView.swift",
-      "kind": "StringLiteral",
-      "offset": 146,
-      "length": 16,
-      "value": "\"SpaceKit.NotificationView\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/HyperLocationView.swift",
@@ -20819,41 +22002,6 @@
       "offset": 2656,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/HyperLocationView.swift",
-      "kind": "StringLiteral",
-      "offset": 436,
-      "length": 17,
-      "value": "\"SpaceKit.HyperLocationView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/VenueManager\/VenueFileHeader.swift",
-      "kind": "Array",
-      "offset": 212,
-      "length": 24,
-      "value": "[0x48, 0x4D, 0x44, 0x46]"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/VenueManager\/VenueFileHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 420,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/VenueManager\/VenueFileHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 420,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/VenueManager\/VenueFileHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 420,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/RoutePlanner\/GeneticAlgorithm\/GeneticAlgorithm.swift",
@@ -20910,13 +22058,6 @@
       "offset": 2387,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Compass\/CompassOverlayView.swift",
-      "kind": "StringLiteral",
-      "offset": 1109,
-      "length": 18,
-      "value": "\"SpaceKit.CompassOverlayView\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Compass\/CompassOverlayView.swift",
@@ -21060,143 +22201,143 @@
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "FloatLiteral",
-      "offset": 3327,
+      "offset": 3564,
       "length": 3,
       "value": "7.0"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3387,
+      "offset": 3624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3626,
+      "offset": 3863,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3810,
+      "offset": 4047,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4036,
+      "offset": 4273,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4222,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 4459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4696,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4643,
+      "offset": 4880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4687,
+      "offset": 4924,
       "length": 26,
       "value": "\"No destination selected.\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4757,
+      "offset": 4994,
       "length": 60,
       "value": "\"Placeholder label for when there is no active destination.\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4970,
+      "offset": 5207,
       "length": 29,
       "value": "\"infoView.actionButton.title\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "StringLiteral",
-      "offset": 5043,
+      "offset": 5280,
       "length": 70,
       "value": "\"Generic button label to indicate user has arrived to the destination\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5558,
+      "offset": 5795,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5568,
+      "offset": 5805,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5580,
+      "offset": 5817,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5591,
+      "offset": 5828,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5625,
+      "offset": 5862,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5653,
+      "offset": 5890,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5711,
+      "offset": 5948,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoView.swift",
-      "kind": "StringLiteral",
-      "offset": 2659,
-      "length": 15,
-      "value": "\"SpaceKit.DefaultInfoView\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Compass\/CompassItemView.swift",
@@ -21204,13 +22345,6 @@
       "offset": 455,
       "length": 2,
       "value": "54"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Compass\/CompassItemView.swift",
-      "kind": "StringLiteral",
-      "offset": 172,
-      "length": 15,
-      "value": "\"SpaceKit.CompassItemView\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Updaters\/FadeOpacityUpdater.swift",
@@ -21225,13 +22359,6 @@
       "offset": 444,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Updaters\/FadeOpacityUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 196,
-      "length": 18,
-      "value": "\"SpaceKit.FadeOpacityUpdater\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/PromptController.swift",
@@ -21274,13 +22401,6 @@
       "offset": 771,
       "length": 3,
       "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/RouteNode.swift",
-      "kind": "StringLiteral",
-      "offset": 244,
-      "length": 9,
-      "value": "\"SpaceKit.RouteNode\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/LevelTransitionController\/LevelTransitionController.swift",
@@ -21430,25 +22550,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/LocationSliderInfoView.swift",
-      "kind": "StringLiteral",
-      "offset": 160,
-      "length": 22,
-      "value": "\"SpaceKit.LocationSliderInfoView\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/BundleIdentifierChecker.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 46,
       "value": "\"d63x5Gfclqvthi4lX4D+AI\/oA2i4AYxu\/utoYZjO5UE=\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Updaters\/RelativeLocationUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 806,
-      "length": 23,
-      "value": "\"SpaceKit.RelativeLocationUpdater\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/ARViewController\/HyperContainerView.swift",
@@ -21458,25 +22564,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/ARViewController\/HyperContainerView.swift",
-      "kind": "StringLiteral",
-      "offset": 997,
-      "length": 18,
-      "value": "\"SpaceKit.HyperContainerView\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationNode.swift",
       "kind": "IntegerLiteral",
       "offset": 356,
       "length": 2,
       "value": "48"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationNode.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 20,
-      "value": "\"SpaceKit.HyperDestinationView\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationNode.swift",
@@ -21850,20 +22942,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationNode.swift",
-      "kind": "StringLiteral",
-      "offset": 2068,
-      "length": 20,
-      "value": "\"SpaceKit.HyperDestinationNode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/RoutePlanner\/GeneticAlgorithm\/HMGeneticAlgorithm.swift",
-      "kind": "StringLiteral",
-      "offset": 140,
-      "length": 18,
-      "value": "\"SpaceKit.HMGeneticAlgorithm\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Wayfinding\/WayfindingService.swift",
       "kind": "BooleanLiteral",
       "offset": 5057,
@@ -21882,7 +22960,7 @@
       "kind": "IntegerLiteral",
       "offset": 404,
       "length": 2,
-      "value": "15"
+      "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoContainerView.swift",
@@ -21900,45 +22978,31 @@
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoContainerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1990,
-      "length": 28,
-      "value": "\"SpaceKit.PlaceholderInfoContainerView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoContainerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2510,
+      "offset": 2615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoContainerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2633,
+      "offset": 2738,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoContainerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2888,
+      "offset": 2993,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoContainerView.swift",
       "kind": "FloatLiteral",
-      "offset": 2984,
+      "offset": 3089,
       "length": 4,
       "value": "50.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/InfoView\/InfoContainerView.swift",
-      "kind": "StringLiteral",
-      "offset": 2317,
-      "length": 28,
-      "value": "\"SpaceKit.DestinationInfoContainerView\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
@@ -22193,53 +23257,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/HyperSpaceView.swift",
-      "kind": "StringLiteral",
-      "offset": 871,
-      "length": 14,
-      "value": "\"SpaceKit.HyperSpaceView\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Wayfinding\/WayfindingElement.swift",
       "kind": "BooleanLiteral",
       "offset": 1631,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Compass\/CompassLabelView.swift",
-      "kind": "StringLiteral",
-      "offset": 87,
-      "length": 16,
-      "value": "\"SpaceKit.CompassLabelView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/BarcodeScanningMaskView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 283,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/BarcodeScanningMaskView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 302,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/BarcodeScanningMaskView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 283,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/BarcodeScanningMaskView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 302,
-      "length": 7,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/BarcodeScanningMaskView.swift",
@@ -22261,13 +23283,6 @@
       "offset": 1250,
       "length": 3,
       "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/BarcodeScanningMaskView.swift",
-      "kind": "StringLiteral",
-      "offset": 199,
-      "length": 23,
-      "value": "\"SpaceKit.BarcodeScanningMaskView\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/BarcodeScanningMaskView.swift",
@@ -22396,72 +23411,100 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/MaloryViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11950,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/MaloryViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12108,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/MaloryViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12230,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/MaloryViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 12410,
+      "length": 4,
+      "value": "36.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/MaloryViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12457,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1615,
+      "offset": 1576,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 184,
-      "length": 28,
-      "value": "\"SpaceKit.LegacySpaceKitViewController\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 18303,
+      "offset": 18264,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 18352,
+      "offset": 18313,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18395,
+      "offset": 18356,
       "length": 2,
       "value": "74"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18467,
+      "offset": 18428,
       "length": 19,
       "value": "\"qrcode.viewfinder\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18607,
+      "offset": 18568,
       "length": 16,
       "value": "\"arrow.up.right\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18740,
+      "offset": 18701,
       "length": 12,
       "value": "\"chevron.up\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18886,
+      "offset": 18847,
       "length": 11,
       "value": "\"bolt.fill\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/LegacySpaceKitViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19032,
+      "offset": 18993,
       "length": 17,
       "value": "\"bolt.slash.fill\""
     },
@@ -22471,13 +23514,6 @@
       "offset": 808,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/SpaceKitDemoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2246,
-      "length": 26,
-      "value": "\"SpaceKit.SpaceKitDemoViewController\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/BeaconNode.swift",
@@ -22545,34 +23581,6 @@
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/DirectionalView.swift",
       "kind": "IntegerLiteral",
-      "offset": 248,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/DirectionalView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/DirectionalView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 248,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/DirectionalView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/DirectionalView.swift",
-      "kind": "IntegerLiteral",
       "offset": 695,
       "length": 2,
       "value": "28"
@@ -22585,95 +23593,53 @@
       "value": "11"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/DirectionalView.swift",
-      "kind": "StringLiteral",
-      "offset": 172,
-      "length": 15,
-      "value": "\"SpaceKit.DirectionalView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Updaters\/TransitionAtDistanceUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 390,
-      "length": 27,
-      "value": "\"SpaceKit.TransitionAtDistanceUpdater\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/StaticMapViewControllerFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 7248,
+      "offset": 7498,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/StaticMapViewControllerFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 7318,
-      "length": 23,
-      "value": "\"SpaceKit.StaticMapViewController\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Updaters\/MatchPositionUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 198,
-      "length": 20,
-      "value": "\"SpaceKit.MatchPositionUpdater\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NewSpaceKitViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3914,
+      "offset": 3875,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NewSpaceKitViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4318,
+      "offset": 4279,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NewSpaceKitViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2566,
-      "length": 25,
-      "value": "\"SpaceKit.NewSpaceKitViewController\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NewSpaceKitViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 25385,
+      "offset": 25346,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NewSpaceKitViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 25438,
+      "offset": 25399,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NewSpaceKitViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25481,
+      "offset": 25442,
       "length": 25,
       "value": "\"mapMaskPathAnimationKey\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NewSpaceKitViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25545,
+      "offset": 25506,
       "length": 12,
       "value": "\"mapOpacity\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/MaloryViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 378,
-      "length": 20,
-      "value": "\"SpaceKit.MaloryViewController\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/AROffScreenIndicatorView.swift",
@@ -22690,32 +23656,25 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/AROffScreenIndicatorView.swift",
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/LevelSwitcher\/LevelSwitcherViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 178,
-      "length": 24,
-      "value": "\"SpaceKit.AROffScreenIndicatorView\""
+      "offset": 271,
+      "length": 3,
+      "value": "\" \""
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationWayfindingNode.swift",
-      "kind": "StringLiteral",
-      "offset": 141,
-      "length": 30,
-      "value": "\"SpaceKit.HyperDestinationWayfindingView\""
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/LevelSwitcher\/LevelSwitcherViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationWayfindingNode.swift",
-      "kind": "StringLiteral",
-      "offset": 141,
-      "length": 30,
-      "value": "\"SpaceKit.HyperDestinationWayfindingView\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationWayfindingNode.swift",
-      "kind": "StringLiteral",
-      "offset": 141,
-      "length": 30,
-      "value": "\"SpaceKit.HyperDestinationWayfindingView\""
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/LevelSwitcher\/LevelSwitcherViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 315,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationWayfindingNode.swift",
@@ -22739,39 +23698,11 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationWayfindingNode.swift",
-      "kind": "StringLiteral",
-      "offset": 601,
-      "length": 30,
-      "value": "\"SpaceKit.HyperDestinationWayfindingNode\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Wayfinding UX\/HyperDestinationWayfindingNode.swift",
-      "kind": "StringLiteral",
-      "offset": 5133,
-      "length": 28,
-      "value": "\"SpaceKit.HyperFloatingDestinationNode\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/ARViewController\/StartWalkingOverlayView.swift",
       "kind": "IntegerLiteral",
       "offset": 948,
       "length": 2,
       "value": "95"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Animation.swift",
-      "kind": "StringLiteral",
-      "offset": 140,
-      "length": 13,
-      "value": "\"figure.walk\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Animation.swift",
-      "kind": "StringLiteral",
-      "offset": 178,
-      "length": 18,
-      "value": "\"figure.tiltPhone\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Animation.swift",
@@ -22856,6 +23787,13 @@
       "offset": 1798,
       "length": 1,
       "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/LevelSwitcher\/DefaultLevelSwitcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 332,
+      "length": 4,
+      "value": "12.0"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/Public\/HeatMap.swift",
@@ -23012,13 +23950,6 @@
       "value": "\"assetManager\""
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Updaters\/LocationUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 195,
-      "length": 15,
-      "value": "\"SpaceKit.LocationUpdater\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/SpaceKitViewController\/NewSpaceKitViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2732,
@@ -23089,13 +24020,6 @@
       "value": "\"opacity\""
     },
     {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/HyperSpaceHUDView.swift",
-      "kind": "StringLiteral",
-      "offset": 192,
-      "length": 17,
-      "value": "\"SpaceKit.HyperSpaceHUDView\""
-    },
-    {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/BlurView.swift",
       "kind": "FloatLiteral",
       "offset": 227,
@@ -23115,20 +24039,6 @@
       "offset": 1498,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/Source\/LocationAnalysis\/CoreLocationManagerProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 491,
-      "length": 24,
-      "value": "\"SpaceKit.CoreLocationManagerProxy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/HyperSpaceView\/Updaters\/HeadingTargetUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 408,
-      "length": 20,
-      "value": "\"SpaceKit.HeadingTargetUpdater\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/Build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SpaceKit\/IntermediateBuildFilesPath\/SpaceKit.build\/Release-iphoneos\/SpaceKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",

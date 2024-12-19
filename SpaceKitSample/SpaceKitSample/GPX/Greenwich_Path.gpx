@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    <wpt lat="51.48472060702312" lon="0.010870021439814082">
+        <time>2019-12-06T14:19:25Z</time>
+        <name>Greenwich_Far</name>
+    </wpt>
+    <wpt lat="51.48915119091228" lon="0.015843227836853657">
+        <time>2019-12-06T14:19:30Z</time>
+        <name>Greenwich_Near</name>
+    </wpt>
+    <wpt lat="51.48942540619592" lon="0.016141626308808554">
+        <time>2019-12-06T14:19:35Z</time>
+        <name>Greenwich_RestCafe</name>
+    </wpt>
+    <wpt lat="51.4897548606439" lon="0.016524113600098644">
+        <time>2019-12-06T14:19:40Z</time>
+        <name>Greenwich_Childrens</name>
+    </wpt>
+    <wpt lat="51.48981523865987" lon="0.016322793690505932">
+        <time>2019-12-06T14:19:45Z</time>
+        <name>Greenwich_Decoration</name>
+    </wpt>
+    <wpt lat="51.48987937875967" lon="0.01599677576132308">
+        <time>2019-12-06T14:19:50Z</time>
+        <name>Greenwich_Lighting</name>
+    </wpt>
+    <wpt lat="51.48992385212719" lon="0.015753242963910452">
+        <time>2019-12-06T14:19:55Z</time>
+        <name>Greenwich_Bath</name>
+    </wpt>
+    <wpt lat="51.48979917852583" lon="0.015711774714077364">
+        <time>2019-12-06T14:20:00Z</time>
+        <name>Greenwich_Dinnerware</name>
+    </wpt>
+    <wpt lat="51.489512824274925" lon="0.016065833099901283">
+        <time>2019-12-06T14:20:05Z</time>
+        <name>Greenwich_RestCafe</name>
+    </wpt>
+    <wpt lat="51.48472060702312" lon="0.010870021439814082">
+        <time>2019-12-06T14:20:10Z</time>
+        <name>Greenwich_Far</name>
+    </wpt>
+    <wpt lat="51.48472060702311" lon="0.010870021439814082">
+        <time>2019-12-06T15:20:10Z</time>
+        <name>Greenwich_Far_Stop</name>
+    </wpt>
+</gpx>

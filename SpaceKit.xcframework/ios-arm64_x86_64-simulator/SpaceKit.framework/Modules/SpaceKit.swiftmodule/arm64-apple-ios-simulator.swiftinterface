@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SpaceKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import ARKit
 import ARTheme
 import AVFoundation
@@ -11,7 +12,9 @@ import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 import GameplayKit
+@_exported import HyperBackgroundSDK
 import Lottie
+import RealityKit
 import SceneKit
 @_exported import SpaceKit
 import Swift
@@ -29,7 +32,7 @@ import _SwiftConcurrencyShims
 import simd
 public typealias InfoViewFactory = () -> any SpaceKit.InfoView
 public typealias RecenterButtonFactory = () -> any SpaceKit.RecenterButton
-public typealias LevelSwitcherFactory = (_ levelOrdinals: [Swift.Int]) -> (any SpaceKit.LevelSwitcher)?
+public typealias LevelSwitcherFactory = (_ levels: [SpaceKit.LevelSwitcherLevel]) -> (any SpaceKit.LevelSwitcher)?
 @_Concurrency.MainActor public struct SpaceKitViewControllerFactory {
   @_Concurrency.MainActor public var demoConfiguration: Any?
   @_Concurrency.MainActor public init(context: any SpaceKit.Context, theme: SpaceKit.Theme = .default)
@@ -102,9 +105,7 @@ public enum RoutingFailure : Swift.Equatable {
   public static func == (a: SpaceKit.RoutingFailure, b: SpaceKit.RoutingFailure) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers public class SpaceKitSDK {
-  #if compiler(>=5.3) && $AsyncAwait
   public static func clearCaches() async
-  #endif
   public static var version: Swift.String {
     get
   }
@@ -226,58 +227,35 @@ public protocol SpaceKitRequisitesDelegate : AnyObject {
   func spaceKitContext(_ context: any SpaceKit.Context, requiresRequisites requisites: [SpaceKit.Requisite])
 }
 extension SpaceKit.Requisite {
-  #if compiler(>=5.3) && $AsyncAwait
   public static func requestUnfulfilledRequisites(from requisites: [SpaceKit.Requisite]) async -> [SpaceKit.Requisite]
-  #endif
 }
 extension Swift.Sequence {
-  #if compiler(>=5.3) && $AsyncAwait
   public func asyncForEach(_ operation: (Self.Element) async throws -> Swift.Void) async rethrows
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func concurrentForEach(withPriority priority: _Concurrency.TaskPriority? = nil, _ operation: @escaping (Self.Element) async -> Swift.Void) async
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func concurrentForEach(withPriority priority: _Concurrency.TaskPriority? = nil, _ operation: @escaping (Self.Element) async throws -> Swift.Void) async throws
-  #endif
 }
 extension Swift.Sequence {
-  #if compiler(>=5.3) && $AsyncAwait
   public func asyncMap<T>(_ transform: (Self.Element) async throws -> T) async rethrows -> [T]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func concurrentMap<T>(withPriority priority: _Concurrency.TaskPriority? = nil, _ transform: @escaping (Self.Element) async -> T) async -> [T]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func concurrentMap<T>(withPriority priority: _Concurrency.TaskPriority? = nil, _ transform: @escaping (Self.Element) async throws -> T) async throws -> [T]
-  #endif
 }
 extension Swift.Sequence {
-  #if compiler(>=5.3) && $AsyncAwait
   public func asyncCompactMap<T>(_ transform: (Self.Element) async throws -> T?) async rethrows -> [T]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func concurrentCompactMap<T>(withPriority priority: _Concurrency.TaskPriority? = nil, _ transform: @escaping (Self.Element) async -> T?) async -> [T]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func concurrentCompactMap<T>(withPriority priority: _Concurrency.TaskPriority? = nil, _ transform: @escaping (Self.Element) async throws -> T?) async throws -> [T]
-  #endif
 }
 extension Swift.Sequence {
-  #if compiler(>=5.3) && $AsyncAwait
   public func asyncFlatMap<T>(_ transform: (Self.Element) async throws -> T) async rethrows -> [T.Element] where T : Swift.Sequence
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func concurrentFlatMap<T>(withPriority priority: _Concurrency.TaskPriority? = nil, _ transform: @escaping (Self.Element) async -> T) async -> [T.Element] where T : Swift.Sequence
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func concurrentFlatMap<T>(withPriority priority: _Concurrency.TaskPriority? = nil, _ transform: @escaping (Self.Element) async throws -> T) async throws -> [T.Element] where T : Swift.Sequence
-  #endif
 }
 public protocol EventTrigger {
 }
 public protocol EventFactory {
   func makeEvent(_ trigger: any SpaceKit.EventTrigger, handler: @escaping () -> Swift.Void) -> any SpaceKit.SubscriptionEvent
+}
+public struct LevelSwitcherLevel {
+  public init(levelIdentifier: Swift.String, ordinal: Swift.Int, name: Swift.String, shortName: Swift.String)
 }
 public protocol RecenterButton : UIKit.UIControl {
   func setIsMapTrackingUser(_ isTracking: Swift.Bool)
@@ -299,12 +277,8 @@ extension Swift.String {
   @objc deinit
 }
 extension SpaceKit.SpaceKitVenue : SpaceKit.Venue {
-  #if compiler(>=5.3) && $AsyncAwait
   final public func fetchMetadata() async throws -> any SpaceKit.VenueMetadata
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   final public func rawData() async throws -> Foundation.Data
-  #endif
 }
 public protocol InfoViewIcon : AnyObject {
   var image: UIKit.UIImage? { get set }
@@ -337,7 +311,7 @@ extension SpaceKit.InfoView {
 extension UIKit.UILabel : SpaceKit.InfoViewLabel {
 }
 extension UIKit.UIControl : SpaceKit.InfoViewButton {
-  @_Concurrency.MainActor(unsafe) public func addAction(_ action: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func addAction(_ action: @escaping () -> Swift.Void)
 }
 @_hasMissingDesignatedInitializers final public class SpaceKitSubscriptionToken : Swift.Hashable {
   public static func == (lhs: SpaceKit.SpaceKitSubscriptionToken, rhs: SpaceKit.SpaceKitSubscriptionToken) -> Swift.Bool
@@ -352,20 +326,16 @@ public protocol SubscriptionEvent {
   func onSubscribe()
   func evaluateFulfilled() -> Swift.Bool
 }
-public protocol LevelSwitcher : UIKit.UIView {
-  var setLevelOrdinalHandler: (Swift.Int) -> Swift.Void { get set }
-  func spaceKitDidSetDisplayLevelOrdinal(_ ordinal: Swift.Int)
-}
 @available(*, deprecated, message: "SpaceKit will allow background location updates automatically if your app has registered the background location capability.")
 public protocol SpaceKitLocationDelegate : AnyObject {
   @available(*, deprecated, message: "SpaceKit will allow background location updates automatically if your app has registered the background location capability.")
   func spaceKitContextShouldAllowBackgroundLocationUpdates(_ context: any SpaceKit.Context) -> Swift.Bool
 }
 extension ARKit.ARSCNView {
-  @_Concurrency.MainActor(unsafe) public var userSceneHeading: Swift.Float? {
+  @_Concurrency.MainActor @preconcurrency public var userSceneHeading: Swift.Float? {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var userVerticalOrientation: Swift.Float {
+  @_Concurrency.MainActor @preconcurrency public var userVerticalOrientation: Swift.Float {
     get
   }
 }
@@ -425,9 +395,7 @@ public struct SpaceKitContextFactory {
   public init(venue: any SpaceKit.Venue, isDebugEnabled: Swift.Bool)
   public init(venue: any SpaceKit.Venue, configurationFileURL: Foundation.URL? = nil, apiKey: Swift.String? = nil)
   public init(venue: any SpaceKit.Venue, configuration: [SpaceKit.ConfigurationKey : Any] = [:], apiKey: Swift.String? = nil)
-  #if compiler(>=5.3) && $AsyncAwait
   public func make() async throws -> any SpaceKit.Context
-  #endif
 }
 public enum SpaceKitViewKey : Swift.String {
   case levelSwitcher
@@ -442,6 +410,10 @@ public enum SpaceKitViewKey : Swift.String {
 public protocol SpaceKitLayout {
   func layoutLevelSwitcher(views: [SpaceKit.SpaceKitViewKey : UIKit.UIView], inLayoutGuide layoutGuide: UIKit.UILayoutGuide)
   func layoutButtonStack(views: [SpaceKit.SpaceKitViewKey : UIKit.UIView], inLayoutGuide layoutGuide: UIKit.UILayoutGuide)
+}
+public protocol LevelSwitcher : UIKit.UIView {
+  var setLevelIdentifierHandler: (Swift.String) -> Swift.Void { get set }
+  func spaceKitDidSetDisplayLevel(with levelIdentifier: Swift.String)
 }
 public struct StaticMapViewControllerFactory {
   public init(context: any SpaceKit.Context, theme: SpaceKit.Theme = .default)
@@ -482,27 +454,17 @@ public protocol VenueMetadata {
   var timestampUnix: Swift.Double { get }
 }
 public protocol Venue {
-  #if compiler(>=5.3) && $AsyncAwait
   func fetchMetadata() async throws -> any SpaceKit.VenueMetadata
-  #endif
 }
 public protocol VenueManager {
   init(configuration: SpaceKit.VenueManagerConfiguration)
-  #if compiler(>=5.3) && $AsyncAwait
   func fetchLocalVenues(forLocation location: CoreLocation.CLLocationCoordinate2D, searchRadius: Swift.Int, limit: Swift.Int) async throws -> [any SpaceKit.LocalVenue]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func fetchMetadata(forVenueWithIdentifier venueIdentifier: Swift.String) async throws -> any SpaceKit.VenueMetadata
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @available(*, deprecated, renamed: "fetchVenue(forVenueWithIdentifier:)")
   @discardableResult
   func fetchVenue(forVenueWithIdentifier venueIdentifier: Swift.String, destinationPath: Swift.String) async throws -> any SpaceKit.Venue
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @discardableResult
   func fetchVenue(forVenueWithIdentifier venueIdentifier: Swift.String) async throws -> any SpaceKit.Venue
-  #endif
 }
 @available(*, deprecated, renamed: "SpaceKitVenueManagerError")
 public typealias SpacekitVenueManagerError = SpaceKit.SpaceKitVenueManagerError
@@ -655,7 +617,7 @@ public enum TraversalOption : Swift.String, Swift.CaseIterable {
   public init?(rawValue: Swift.String)
   public typealias AllCases = [SpaceKit.TraversalOption]
   public typealias RawValue = Swift.String
-  public static var allCases: [SpaceKit.TraversalOption] {
+  nonisolated public static var allCases: [SpaceKit.TraversalOption] {
     get
   }
   public var rawValue: Swift.String {
