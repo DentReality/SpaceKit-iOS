@@ -22,7 +22,7 @@ jobs:
         - name: Checkout repository
           uses: actions/checkout@v4
 
-        -name: Set Developer dir
+        - name: Set Developer dir
           run: exec ./.github/scripts/set_build_settings.sh
 
         - name: SpaceKitSample tests
