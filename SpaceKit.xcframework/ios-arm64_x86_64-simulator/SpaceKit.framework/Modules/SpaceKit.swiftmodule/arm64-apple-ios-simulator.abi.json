@@ -20526,6 +20526,54 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "IMDFUnit",
+        "printedName": "IMDFUnit",
+        "declKind": "Class",
+        "usr": "s:18SpaceKitFoundation8IMDFUnitC",
+        "mangledName": "$s18SpaceKitFoundation8IMDFUnitC",
+        "moduleName": "SpaceKitFoundation",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IMDFPhysicalAsset",
+            "printedName": "IMDFPhysicalAsset",
+            "usr": "s:18SpaceKitFoundation17IMDFPhysicalAssetP",
+            "mangledName": "$s18SpaceKitFoundation17IMDFPhysicalAssetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IMDFDisplayable",
+            "printedName": "IMDFDisplayable",
+            "usr": "s:18SpaceKitFoundation15IMDFDisplayableP",
+            "mangledName": "$s18SpaceKitFoundation15IMDFDisplayableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IMDFFeature",
+            "printedName": "IMDFFeature",
+            "usr": "s:18SpaceKitFoundation11IMDFFeatureP",
+            "mangledName": "$s18SpaceKitFoundation11IMDFFeatureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "CoreIconView",
         "printedName": "CoreIconView",
         "declKind": "Class",
@@ -23161,84 +23209,84 @@
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16477,
+      "offset": 16577,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16496,
+      "offset": 16596,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16616,
+      "offset": 16716,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16635,
+      "offset": 16735,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16763,
+      "offset": 16863,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16852,
+      "offset": 16952,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16931,
+      "offset": 17031,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16949,
+      "offset": 17049,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "StringLiteral",
-      "offset": 17281,
+      "offset": 17381,
       "length": 17,
       "value": "\"preview section\""
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17409,
+      "offset": 17509,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "FloatLiteral",
-      "offset": 17513,
+      "offset": 17613,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/runner\/actions-runner\/_work\/iOS-Hyper\/iOS-Hyper\/SpaceKit\/SpaceKit\/MaloryViewController\/DirectionsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17528,
+      "offset": 17628,
       "length": 4,
       "value": "true"
     },

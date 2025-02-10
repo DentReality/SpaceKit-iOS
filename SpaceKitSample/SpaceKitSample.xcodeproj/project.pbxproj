@@ -7,17 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186533D7458558A92864B8FA /* SpaceKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DD52112DF82F3B164CE642 /* SpaceKit.xcframework */; };
 		654A10972AD5AAB6006382FF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 654A10962AD5AAB6006382FF /* Lottie */; };
 		654A24592B0F868A005ECD53 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 654A245B2B0F868A005ECD53 /* Localizable.strings */; };
 		832140A2297022A800439155 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832140A129701F9300439155 /* AppIcon.xcassets */; };
 		8332B954299BF0D500384CB7 /* spacekitconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8332B953299BF0D500384CB7 /* spacekitconfiguration.json */; };
-		97FF6B4E2CF8C9F9009B6563 /* Greenwich_Bath.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 97FF6B482CF8C9F9009B6563 /* Greenwich_Bath.gpx */; };
-		97FF6B4F2CF8C9F9009B6563 /* Greenwich_Path.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 97FF6B4B2CF8C9F9009B6563 /* Greenwich_Path.gpx */; };
-		97FF6B502CF8C9F9009B6563 /* Greenwich_Lighting.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 97FF6B492CF8C9F9009B6563 /* Greenwich_Lighting.gpx */; };
-		97FF6B512CF8C9F9009B6563 /* GreenwichNear.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 97FF6B4D2CF8C9F9009B6563 /* GreenwichNear.gpx */; };
-		97FF6B522CF8C9F9009B6563 /* GreenwichFar.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 97FF6B4C2CF8C9F9009B6563 /* GreenwichFar.gpx */; };
-		97FF6B532CF8C9F9009B6563 /* Greenwich_LivingRoom.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 97FF6B4A2CF8C9F9009B6563 /* Greenwich_LivingRoom.gpx */; };
-		B0D7005025618808F840EC79 /* SpaceKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8D64357539439CC9EE168C1 /* SpaceKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		975F86E5D466DEE4C296F754 /* SpaceKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02DD52112DF82F3B164CE642 /* SpaceKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C2A34AA7290FF74D00F69B1D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A34AA6290FF74D00F69B1D /* SettingsView.swift */; };
 		C2AE8385290C21F700E8D8E2 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AE8384290C21F700E8D8E2 /* SettingsCoordinator.swift */; };
 		C2BAE66029114AAD00D57437 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAE65F29114AAD00D57437 /* SettingsManager.swift */; };
@@ -37,7 +32,6 @@
 		C4EC318F285A09B500DFBD8A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC318E285A09B500DFBD8A /* RootViewController.swift */; };
 		C4EC3192285A217400DFBD8A /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC3191285A217400DFBD8A /* ListCell.swift */; };
 		C4FEB7D2286B0D4B009B29CE /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB7D1286B0D4B009B29CE /* ListManager.swift */; };
-		CD573A21E73737BC5AB9BB87 /* SpaceKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D64357539439CC9EE168C1 /* SpaceKit.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +59,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				C46C6AD92851FD7500C5038F /* geos in Embed Frameworks */,
-				B0D7005025618808F840EC79 /* SpaceKit.xcframework in Embed Frameworks */,
+				975F86E5D466DEE4C296F754 /* SpaceKit.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02DD52112DF82F3B164CE642 /* SpaceKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SpaceKit.xcframework; path = ../SpaceKit.xcframework; sourceTree = "<group>"; };
 		654A245A2B0F868A005ECD53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		654A245C2B0F868D005ECD53 /* eu-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "eu-ES"; path = "eu-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		654A245D2B0F868F005ECD53 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -86,13 +81,6 @@
 		832140A129701F9300439155 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		8332B953299BF0D500384CB7 /* spacekitconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = spacekitconfiguration.json; sourceTree = "<group>"; };
 		9771C6752CF8D35D0031233D /* HyperBackgroundSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HyperBackgroundSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97FF6B482CF8C9F9009B6563 /* Greenwich_Bath.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Greenwich_Bath.gpx; sourceTree = "<group>"; };
-		97FF6B492CF8C9F9009B6563 /* Greenwich_Lighting.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Greenwich_Lighting.gpx; sourceTree = "<group>"; };
-		97FF6B4A2CF8C9F9009B6563 /* Greenwich_LivingRoom.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Greenwich_LivingRoom.gpx; sourceTree = "<group>"; };
-		97FF6B4B2CF8C9F9009B6563 /* Greenwich_Path.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Greenwich_Path.gpx; sourceTree = "<group>"; };
-		97FF6B4C2CF8C9F9009B6563 /* GreenwichFar.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GreenwichFar.gpx; sourceTree = "<group>"; };
-		97FF6B4D2CF8C9F9009B6563 /* GreenwichNear.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GreenwichNear.gpx; sourceTree = "<group>"; };
-		B8D64357539439CC9EE168C1 /* SpaceKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SpaceKit.xcframework; path = ../SpaceKit.xcframework; sourceTree = "<group>"; };
 		C2A34AA6290FF74D00F69B1D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C2AE8384290C21F700E8D8E2 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
 		C2BAE65F29114AAD00D57437 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
@@ -124,7 +112,7 @@
 			files = (
 				C46C6AD82851FD5800C5038F /* geos in Frameworks */,
 				654A10972AD5AAB6006382FF /* Lottie in Frameworks */,
-				CD573A21E73737BC5AB9BB87 /* SpaceKit.xcframework in Frameworks */,
+				186533D7458558A92864B8FA /* SpaceKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,19 +133,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		97FF6B472CF8C9E9009B6563 /* GPX */ = {
-			isa = PBXGroup;
-			children = (
-				97FF6B482CF8C9F9009B6563 /* Greenwich_Bath.gpx */,
-				97FF6B492CF8C9F9009B6563 /* Greenwich_Lighting.gpx */,
-				97FF6B4A2CF8C9F9009B6563 /* Greenwich_LivingRoom.gpx */,
-				97FF6B4B2CF8C9F9009B6563 /* Greenwich_Path.gpx */,
-				97FF6B4C2CF8C9F9009B6563 /* GreenwichFar.gpx */,
-				97FF6B4D2CF8C9F9009B6563 /* GreenwichNear.gpx */,
-			);
-			path = GPX;
-			sourceTree = "<group>";
-		};
 		C2AE8383290C21E200E8D8E2 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +171,6 @@
 		C4E3772028042D9600886C88 /* SpaceKitSample */ = {
 			isa = PBXGroup;
 			children = (
-				97FF6B472CF8C9E9009B6563 /* GPX */,
 				C49D1D38285CDE8A00ED06BE /* CustomResources */,
 				C2AE8383290C21E200E8D8E2 /* Settings */,
 				C4EC3190285A215C00DFBD8A /* List */,
@@ -233,7 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				9771C6752CF8D35D0031233D /* HyperBackgroundSDK.framework */,
-				B8D64357539439CC9EE168C1 /* SpaceKit.xcframework */,
+				02DD52112DF82F3B164CE642 /* SpaceKit.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -374,12 +348,6 @@
 			files = (
 				832140A2297022A800439155 /* AppIcon.xcassets in Resources */,
 				8332B954299BF0D500384CB7 /* spacekitconfiguration.json in Resources */,
-				97FF6B4E2CF8C9F9009B6563 /* Greenwich_Bath.gpx in Resources */,
-				97FF6B4F2CF8C9F9009B6563 /* Greenwich_Path.gpx in Resources */,
-				97FF6B502CF8C9F9009B6563 /* Greenwich_Lighting.gpx in Resources */,
-				97FF6B512CF8C9F9009B6563 /* GreenwichNear.gpx in Resources */,
-				97FF6B522CF8C9F9009B6563 /* GreenwichFar.gpx in Resources */,
-				97FF6B532CF8C9F9009B6563 /* Greenwich_LivingRoom.gpx in Resources */,
 				C49D1D39285CDE8A00ED06BE /* CustomResources in Resources */,
 				654A24592B0F868A005ECD53 /* Localizable.strings in Resources */,
 				C4E3772E28042D9700886C88 /* LaunchScreen.storyboard in Resources */,
