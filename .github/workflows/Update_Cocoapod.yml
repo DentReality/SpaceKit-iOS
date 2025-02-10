@@ -12,7 +12,7 @@ jobs:
       framework: ${{ steps.filter.outputs.framework }}
       docs: ${{ steps.filter.outputs.framework }}
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v3
     - uses: dorny/paths-filter@v2
       id: filter
       with:
@@ -31,7 +31,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
       with:
         token: ${{ secrets.HYPER_IOS_PAT }}
 
