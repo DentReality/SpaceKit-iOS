@@ -11,9 +11,6 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-env:
-  DEVELOPER_DIR: /Applications/Xcode_15.3.app/Contents/Developer
-
 jobs:
       Test:
         if: github.event.pull_request.draft == false
@@ -23,7 +20,10 @@ jobs:
 
         steps:
         - name: Checkout repository
-          uses: actions/checkout@v2
+          uses: actions/checkout@v3
+
+        - name: Set Developer dir
+          run: exec ./.github/scripts/set_build_settings.sh
 
         - name: SpaceKitSample tests
           run: exec ./.github/scripts/SpaceKitSample-all_tests.sh

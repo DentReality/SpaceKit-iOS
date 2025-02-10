@@ -17,7 +17,8 @@ import SpaceKit
 	private var settingsManager: SettingsManager?
 	private var settingsCoordinator: SettingsCoordinator?
 	
-	private let demoAPIKey: String = "_INSERT_API_KEY_HERE_"
+	private let demoAPIKey: String = "API_KEY"
+	private let demoSharedSecret: String = "SHARED_SECRET"
 	
 	private var products: [Product] = []
 
@@ -50,8 +51,8 @@ import SpaceKit
 
 		self.products = products
 		
-		let organizationIdentifier: String = "_INSERT_ORGANISATION_ID_HERE_"
-		let venueIdentifier: String = "_INSERT_VENUE_ID_HERE_"
+		let organizationIdentifier: String = "ORGANIZATION_IDENTIFIER"
+		let venueIdentifier: String = "VENUE_IDENTIFIER"
 		
 		Task.detached {
 			do {
@@ -65,7 +66,8 @@ import SpaceKit
 	private nonisolated func loadVenue(in organizationIdentifier: String, with venueIdentifier: String) async throws {
 		let managerConfig = VenueManagerConfiguration(
 			organizationIdentifier: organizationIdentifier,
-			apiKey: demoAPIKey
+			apiKey: demoAPIKey,
+			apiSharedSecret: demoSharedSecret
 		)
 		
 		let venueManager = VenueManagerFactory(configuration: managerConfig).make()
